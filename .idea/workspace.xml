@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="839b1533-1b35-485e-8a74-c147db022416" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategy/beginner_strategy.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategy/beginner_strategy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategy/minimax_strategy.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategy/minimax_strategy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategy/random_strategy.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategy/random_strategy.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +32,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Base-Calculator" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
@@ -164,6 +168,7 @@
       <workItem from="1612085957497" duration="1394000" />
       <workItem from="1631550725978" duration="680000" />
       <workItem from="1631551412100" duration="893000" />
+      <workItem from="1631610127984" duration="792000" />
     </task>
     <servers />
   </component>
@@ -179,30 +184,35 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1631607072102" />
-    <state width="1493" height="97" key="GridCell.Tab.0.bottom" timestamp="1631607072803">
+    <state width="1493" height="97" key="GridCell.Tab.0.bottom" timestamp="1631610888373">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="97" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1631607072803" />
-    <state width="1493" height="97" key="GridCell.Tab.0.center" timestamp="1631607072803">
+    <state width="1493" height="97" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1631610888373" />
+    <state width="1493" height="97" key="GridCell.Tab.0.center" timestamp="1631610888373">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="97" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1631607072803" />
-    <state width="1493" height="97" key="GridCell.Tab.0.left" timestamp="1631607072802">
+    <state width="1493" height="97" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1631610888373" />
+    <state width="1493" height="97" key="GridCell.Tab.0.left" timestamp="1631610888373">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="97" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1631607072802" />
-    <state width="1493" height="97" key="GridCell.Tab.0.right" timestamp="1631607072803">
+    <state width="1493" height="97" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1631610888373" />
+    <state width="1493" height="97" key="GridCell.Tab.0.right" timestamp="1631610888373">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="97" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1631607072803" />
+    <state width="1493" height="97" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1631610888373" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1631606863307">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1631606863307" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1631610240568">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1631610240568" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Obstruction$main.coverage" NAME="main Coverage Results" MODIFIED="1631551412489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/Obstruction$main.coverage" NAME="main Coverage Results" MODIFIED="1631609659686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/a11_916_Putura_Emanuel_Vasile$Unittests_for_test_strategy_TestMinimaxStrategy_test_move.coverage" NAME="Unittests for test_strategy.TestMinimaxStrategy.test_move Coverage Results" MODIFIED="1610567695598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/tests" />
+    <SUITE FILE_PATH="coverage/Test$main.coverage" NAME="main Coverage Results" MODIFIED="1631610888348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/a11_916_Putura_Emanuel_Vasile$gui.coverage" NAME="gui Coverage Results" MODIFIED="1609188059857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/presentation/GUI" />
     <SUITE FILE_PATH="coverage/a11_916_Putura_Emanuel_Vasile$Unittests_in_tests.coverage" NAME="Unittests in tests Coverage Results" MODIFIED="1610618813943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/tests" />
     <SUITE FILE_PATH="coverage/a11_916_Putura_Emanuel_Vasile$main.coverage" NAME="main Coverage Results" MODIFIED="1611994539974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />

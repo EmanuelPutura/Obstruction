@@ -1,4 +1,4 @@
-from src.strategy.strategy import Strategy
+from strategy.strategy import Strategy
 from domain.cell import CellState
 from random import randint
 
