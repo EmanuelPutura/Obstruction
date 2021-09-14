@@ -29,5 +29,6 @@
  human_symbol = X
  computer_symbol = O
  ```
+ For the UI, the options are ```gui``` and ```console```. The strategy can be ```beginner```, ```random``` or ```minimax``` and the human/computer symbol can be ```X``` or ```O```. Also note that for the second player symbol the letter 'O' is used instead of '0', because of displaying considerations.
  
  
