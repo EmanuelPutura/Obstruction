@@ -19,3 +19,15 @@
     $ cd ./src
     $ python main.py
     ```
+
+
+ ## Usage
+ The users can change the game settings before launching the game (e.g., the user can choose between a console-based UI or a graphical UI, the AI strategy, the user's and the computer's board symbols). This can be done by modifying the settings.properties file (located in the src folder of the project). The default game settings are:
+ ```sh
+ ui = gui
+ strategy = minimax
+ human_symbol = X
+ computer_symbol = O
+ ```
+ 
+ 
