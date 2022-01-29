@@ -46,7 +46,7 @@ class MinimaxStrategy(Strategy):
                 best_move = point
         return best_move
 
-    def attemp_winning(self, board):
+    def attempt_winning(self, board):
         """
         Checks if the game is won, taking into consideration the temporarily moves too
         :param board: the current game board
@@ -91,7 +91,7 @@ class MinimaxStrategy(Strategy):
         if depth > 2:  # because of time complexity reasons the algorithm is limited to a maximum depth of 2
             return MinimaxResults.NONE.value
 
-        if self.attemp_winning(board):  # attempt to win the game with the current temporary moves
+        if self.attempt_winning(board):  # attempt to win the game with the current temporary moves
             return MinimaxResults.MAXIMIZER.value
 
         free_points = self._get_free_points(board)
